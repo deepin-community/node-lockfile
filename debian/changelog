@@ -1,0 +1,70 @@
+node-lockfile (1.0.4-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Fix filenamemangle
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Update standards version to 4.6.0, no changes needed.
+  * Drop dependency to nodejs
+
+ -- Yadd <yadd@debian.org>  Tue, 09 Nov 2021 01:34:19 +0100
+
+node-lockfile (1.0.4-3) unstable; urgency=medium
+
+  * Team upload
+  * Back to unstable after successful tests
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Switch install to pkg-js-tools
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 19 Nov 2019 22:46:07 +0100
+
+node-lockfile (1.0.4-2) experimental; urgency=medium
+
+  * Team upload
+  * Switch tests to pkg-js-tools and embed "touch" for tests (Closes: #928645)
+  * Declare compliance with policy 4.3.0
+  * Add upstream/metadata
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 08 May 2019 11:41:01 +0200
+
+node-lockfile (1.0.4-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.4
+  * Use salsa.debian.org in Vcs-* fields
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Change section to javascript and priority optional
+  * Remove touch module usage in tests
+  * Enable tests, nocheck build profile and autopkgtest
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 16 Sep 2018 14:23:38 +0530
+
+node-lockfile (0.4.1-1) unstable; urgency=low
+
+  * Upstream update
+  * control: canonicalize Vcs fields
+  * copyright:
+    + add Upstream-Contact and Source fields
+    + update BSD-2-clause license text to the upstream version.
+
+ -- Jérémy Lal <kapouer@melix.org>  Wed, 21 Aug 2013 09:11:40 +0200
+
+node-lockfile (0.3.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #706347)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 28 Apr 2013 18:25:42 +0200

@@ -1,0 +1,5 @@
+set -e
+ln -s ../../.. debian/tests/test-modules/lockfile
+#NODE_PATH=debian/tests/test-modules tap test/{basic,retry-time,unlock-no-cb}.js
+NODE_PATH=debian/tests/test-modules tap test/*.js
+rm -f debian/tests/test-modules/lockfile
